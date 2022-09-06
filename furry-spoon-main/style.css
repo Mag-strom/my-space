@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500&family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@500&family=Sacramento&display=swap');
+body{
+    min-height: 100vh;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+li,a,button{
+    font-family: "Lexend Deca";
+    font-weight: 750;
+    font-size: 1.5rem;
+    color:whitesmoke;
+    text-decoration: none;
+}
+button{
+    color:black;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem 1%;
+}
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    
+}
+.nav__links{
+    list-style: none;
+}
+.nav__links li{
+    display: inline-block;
+    padding: 0px 10vh;
+
+}
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover{
+    color: #0088a9;
+}
+button{
+    padding: 1vh 5vh;
+    background-color: rgba(255,255,255);
+   margin-left: 20px;
+ border: none;
+ border-radius: 50px;
+ cursor:pointer;
+ transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color:rgba(0,136,196,1);
+
+}
+.line-1{
+    
+position: relative;
+width: 100%;
+border: 0.5px solid #525252;
+}
+.name{
+    /* mySpace */
+
+position: relative;
+
+padding:4rem;
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 500;
+font-size: 13.75rem;
+line-height: 100%;
+/* or 40% */
+justify-content: center;
+text-align: center;
+letter-spacing: 0.2px;
+
+color: #FFFFFF;
+
+
+}
+.content{
+    /* Credit Card for Students */
+
+position: relative;
+padding-bottom:4rem;
+
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 500;
+font-size: 4.06rem;
+line-height: 135%;
+/* or 135% */
+justify-content: center;
+text-align: center;
+letter-spacing: 0.2px;
+
+color: #FFFFFF;
+
+
+}
+.content-page1
+{
+    position: relative;
+padding-bottom:4rem;
+
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 500;
+font-size: 2rem;
+line-height: 135%;
+/* or 135% */
+justify-content: center;
+text-align: center;
+letter-spacing: 0.2px;
+
+color: #FFFFFF;
+}
+.number-box{
+    
+    
+    position: relative;
+    left: 28%;
+    margin-left: 10vh;
+    margin-right:10vh;
+    padding:0.5rem;
+    height: 5.56rem;
+    width: 45.43rem;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3vh;
+    line-height: 100%;
+    /* or 40% */
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+    
+   background-color:#FFFFFF;
+    
+    
+ border: none;
+ border-radius: 250px;
+ cursor:pointer;
+
+}
+.get-acess{
+    position: relative;
+    left: 10%;
+    margin-top: 10px;
+    background-color:#000000;
+    color:#fff;
+    
+}
+.break{
+    position: relative;
+    width: 100%;
+    padding: 5vh;
+    padding:flex-end;
+    background-color: #000000;
+    border: 0.5px solid #000000;
+}
+.line-2{
+    
+    position: relative;
+    width: 100%;
+    padding: 5vh;
+    padding:flex-end;
+    background-color: #181818;
+    border: 0.5px solid #181818;
+    }
+.page2{
+    background-color: #fff;
+}
+.page2-content{
+    /* Credit Card For Every Student Get your customised Credit and Debit Card and start building your credit as soon as you turn 18. */
+background-color: #fff;
+position: relative;
+padding-top:20vh;
+font-family: 'Lexend Deca';
+}
+.content-2{
+    background-color: #fff;
+position: relative;
+padding-bottom:4rem;
+padding-left: 5vw;
+padding-right: 60vw;
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 2000;
+font-size: 6rem;
+line-height: 135%;
+/* or 135% */
+justify-content: center;
+text-align: center;
+letter-spacing: 0.2px;
+color: #F23467;
+}
+.content-2-2{
+    background-color: #fff;
+position: relative;
+padding-bottom:4rem;
+padding-left: 5vw;
+padding-right: 60vw;
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 500;
+font-size: 2.8rem;
+line-height: 135%;
+/* or 135% */
+justify-content: center;
+text-align: center;
+letter-spacing: 0.2px;
+color: #000000;
+}
+.page3{
+    background-color: #000;
+    width: auto;
+height: 978px;
+}
+.page3-content{
+    /* Credit Card For Every Student Get your customised Credit and Debit Card and start building your credit as soon as you turn 18. */
+background-color: #000;
+position: relative;
+padding-top:20vh;
+font-family: 'Lexend Deca';
+}
+.content-3{
+    background-color: #000;
+position: relative;
+left: 0;
+margin-left: 500px;
+
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 2000;
+font-size: 6rem;
+line-height: 141%;
+/* or 135% */
+justify-content: center;
+text-align: center;
+letter-spacing: 0.2px;
+color: #fff;
+}
+.content-3-3{
+    background-color: #000;
+position: relative;
+padding-top: 5%;
+margin-left: 500px;
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 500;
+font-size: 3rem;
+line-height: 135%;
+/* or 135% */
+justify-content: center;
+text-align: center;
+letter-spacing: 0.2px;
+color: #fff;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	position: sticky;
+	top: 100%;
+	background-color: black;
+    padding: 70px 0;
+    height: 437px;
+	margin-top: auto;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 20px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: black;
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #0cb1e4;
+	/* background-color: #ffffff; */
+}
+/* .................... */
+.last{
+	position: relative;
+	width: 740px;
+	height: 370px;
+	left: calc(50% - 740px/2 - 225.5px);
+	top: 80px;
+	
+	background: #FFFFFF;
+	
+	
+	box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+	border-radius: 33px;
+
+/* background: #181818; */
+}
+.last-text{
+	position:relative;
+width: 350px;
+height: 200px;
+left:100px;
+top: 50px;
+	font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 52px;
+/* or 147% */
+
+letter-spacing: 0.2px;
+background-color: #FFFFFF;
+color: #000000;
+}
+.card
+{
+	position: relative;
+width: 561px;
+height: 355px;
+
+left: 900px;
+bottom: 275px;
+background: white;
+border-radius: 30px;
+}
+.line-last
+{
+	position: relative;
+width: 561px;
+height: 112.31px;
+left:900px;
+bottom:385.31px;
+
+border-bottom-left-radius:30px ;
+border-bottom-right-radius:30px ;
+background: linear-gradient(91.01deg, rgba(0, 0, 0, 0.2) 1.61%, rgba(32, 32, 32, 0.08883) 47.29%, rgba(102, 102, 102, 0) 99.38%), #1E1E1E;
+}
+.card-text{
+	position: auto;
+background-color: #FFFFFF;
+
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 88px;
+/* or 251% */
+
+text-align: center;
+letter-spacing: 0.2px;
+}
+.number{
+	position: relative;
+width: 428px;
+height: 48px;
+right: 100px;
+top: 150px;
+	background-color: white;
+	 font-family: "Lexend Deca";
+	 font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 48px;
+/* identical to box height */
+
+letter-spacing: 0.04em;
+
+}
+.button-last{
+	font-family: "Lexend Deca";
+    font-weight: 750;
+    font-size: 25px;
+    color:whitesmoke;
+    text-decoration: none;
+	padding: 9px 25px;
+	position: absolute;
+width: 354px;
+height: 67px;
+left: 72px;
+top: 267px;
+    background-color: black;
+   margin-left: 20px;
+ border: none;
+ border-radius: 50px;
+ cursor:pointer;
+ transition: all 0.3s ease 0s;
+
+
+}
+
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
